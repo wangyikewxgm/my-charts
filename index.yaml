@@ -1,9 +1,30 @@
 apiVersion: v1
 entries:
+  canary-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-10T15:28:57.224518+08:00"
+    description: A Helm chart for Kubernetes
+    digest: aa85fdccf28e1c4e6f5e433b3718df4c7a538d237d2eb1dcaeec861c34e0656c
+    name: canary-demo
+    type: application
+    urls:
+    - canary-demo-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-10T15:28:57.223874+08:00"
+    description: A Helm chart for Kubernetes
+    digest: cea1c658b4145f3c8b3244d93f9eb5e08f45c991302009a645d0bbfaccc08ca5
+    name: canary-demo
+    type: application
+    urls:
+    - canary-demo-1.0.0.tgz
+    version: 1.0.0
   hello-kubernetes-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-06-10T11:27:20.77186+08:00"
+    created: "2022-06-10T15:28:57.225613+08:00"
     description: A hello node application for Kubernetes
     digest: 6b28826b456cd7f7b36195243108f08567926e66a2cf00d71019805c340ca737
     home: https://github.com/jhidalgo3/
@@ -23,4 +44,4 @@ entries:
     urls:
     - hello-kubernetes-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-10T11:27:20.770867+08:00"
+generated: "2022-06-10T15:28:57.222468+08:00"
