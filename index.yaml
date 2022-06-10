@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  hello-kubernetes-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-10T11:27:20.77186+08:00"
+    description: A hello node application for Kubernetes
+    digest: 6b28826b456cd7f7b36195243108f08567926e66a2cf00d71019805c340ca737
+    home: https://github.com/jhidalgo3/
+    icon: https://jhidalgo3.github.io/helm-charts/logos/nodejs-logo.png
+    keywords:
+    - nodejs
+    - kubernetes
+    - deploy
+    - hello
+    maintainers:
+    - email: jhidalgo3@gmail.com
+      name: Jose Maria Hidalgo
+    name: hello-kubernetes-chart
+    sources:
+    - https://github.com/jhidalgo3/hello-kubernetes
+    type: application
+    urls:
+    - hello-kubernetes-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-10T11:27:20.770867+08:00"
